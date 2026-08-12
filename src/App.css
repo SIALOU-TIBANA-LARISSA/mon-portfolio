@@ -1321,3 +1321,120 @@ img {
   display: block;
 }
 
+/* =====================================
+   CORRECTION MOBILE - ACCUEIL & À PROPOS
+===================================== */
+
+@media screen and (max-width: 768px) {
+
+  /* ===== ACCUEIL ===== */
+
+  .hero-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+
+    gap: 40px !important;
+  }
+
+  .hero-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hero-content h1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 38px !important;
+    line-height: 1.15 !important;
+
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .hero-content h2 {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 26px !important;
+    line-height: 1.25 !important;
+
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .hero-description {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .hero-image {
+    width: 100% !important;
+    flex: none !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .hero-image img {
+    width: 280px !important;
+    height: 350px !important;
+    max-width: 100% !important;
+  }
+
+
+  /* ===== À PROPOS ===== */
+
+  #apropos {
+    width: 100% !important;
+    padding: 70px 5% !important;
+  }
+
+  .about-container {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+
+    gap: 40px !important;
+  }
+
+  .about-text {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .about-text h2 {
+    font-size: 38px !important;
+  }
+
+  .about-text p:not(.section-intro) {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+  }
+
+  .about-highlights {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+
+    gap: 20px !important;
+  }
+
+  .about-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+}
