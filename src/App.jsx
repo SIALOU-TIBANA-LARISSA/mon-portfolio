@@ -25,16 +25,16 @@ function App() {
   <div className="hero-container">
 
     <div className="hero-content">
-    <p className="hero-intro">Bonjour, je suis</p>
+    <p className="hero-intro">Bonjour et bienvenue sur mon portfolio !</p>
 
     <h1>SIALOU TIBANA LARISSA</h1>
 
     <h2>Développeuse Web Full-Stack</h2>
 
     <p className="hero-description">
-      Passionnée par le développement web et mobile, je conçois des applications
-  et des solutions numériques modernes, fonctionnelles et adaptées aux besoins
-  des utilisateurs.
+      Je transforme les idées en solutions numériques modernes, fonctionnelles et adaptées aux besoins réels.
+
+Passionnée par le développement web et mobile, je conçois des applications et des plateformes qui répondent à des besoins concrets, tout en continuant à apprendre et à perfectionner mes compétences.
     </p>
 
     <div className="hero-buttons">
