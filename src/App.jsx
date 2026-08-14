@@ -278,12 +278,23 @@ Passionnée par le développement web et mobile, je conçois des applications et
           <h3>H-Créa & Design</h3>
 
           <p>
-            Conception et développement d'une plateforme web dédiée à la
-            présentation et à la vente de produits personnalisés, avec
-            gestion des produits, du panier, des commandes et du paiement.
-          </p>
+  Conception et développement d'une plateforme web dédiée à la
+  présentation et à la vente de produits personnalisés, avec
+  gestion des produits, du panier, des commandes et du paiement.
+</p>
 
-          <div className="project-technologies">
+<div className="project-challenge">
+  <p>
+    <strong>Défi :</strong> Problèmes d'affichage de certaines images après le déploiement.
+  </p>
+
+  <p>
+    <strong>Solution :</strong> Analyse et correction des chemins d'accès aux ressources
+    afin d'assurer le chargement correct des images en production.
+  </p>
+</div>
+
+<div className="project-technologies">
             <span>Laravel</span>
             <span>JavaScript</span>
             <span>Tailwind CSS</span>

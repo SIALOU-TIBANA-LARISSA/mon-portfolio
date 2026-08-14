@@ -1438,3 +1438,26 @@ img {
   }
 
 }
+
+/* ================================
+   DÉFI & SOLUTION DU PROJET
+================================ */
+
+.project-challenge {
+  margin: 25px 0;
+  padding: 18px 20px;
+  background: #f8f5f2;
+  border-left: 4px solid #8b5e3c;
+  border-radius: 10px;
+}
+
+.project-challenge p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.project-challenge strong {
+  color: #8b5e3c;
+}
