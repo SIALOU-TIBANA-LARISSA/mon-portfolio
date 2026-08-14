@@ -405,7 +405,7 @@ Passionnée par le développement web et mobile, je conçois des applications et
     </div>
 
     <span className="experience-date">
-      2025 – Aujourd'hui
+      2026 – Aujourd'hui
     </span>
   </div>
 
