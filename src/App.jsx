@@ -368,20 +368,22 @@ Passionnée par le développement web et mobile, je conçois des applications et
     <div className="experience-card">
 
       <div className="experience-header">
-        <div>
-          <h3>Stagiaire Développeuse Web</h3>
-          <h4>H-Venture SARL</h4>
-        </div>
+  <div>
+    <h3>Stagiaire Développeuse Web</h3>
+    <h4>H-Venture SARL — Bingerville, Abidjan</h4>
+  </div>
 
-        <span className="experience-date">
-          2025 – 2026
-        </span>
-      </div>
+  <span className="experience-date">
+    Novembre 2025 – Mars 2026
+  </span>
+</div>
 
-      <p className="experience-description">
-        Participation à la conception et au développement de solutions web
-        dans le cadre de projets professionnels.
-      </p>
+<p className="experience-description">
+  Projet réalisé dans le cadre de mon stage chez H-Venture SARL :
+  conception et développement d'une plateforme web dédiée à la présentation
+  et à la vente de produits personnalisés, avec gestion des produits,
+  du panier, des commandes et du paiement.
+</p>
 
       <div className="experience-tags">
         <span>Développement Web</span>
