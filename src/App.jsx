@@ -68,30 +68,34 @@ Passionnée par le développement web et mobile, je conçois des applications et
       <h2>À propos de moi</h2>
 
       <p>
-        Après une formation en Physique-Chimie, j'ai choisi de me
-        reconvertir dans le développement web afin de construire mon
-        parcours professionnel dans le numérique.
-      </p>
+  Après une formation en Physique-Chimie, j'ai choisi en 2024 de me
+  reconvertir dans le développement web afin de construire mon parcours
+  professionnel dans le numérique.
+</p>
 
-      <p>
-        J'ai ainsi intégré Eranove Academy, où j'ai obtenu une Licence
-        Professionnelle en Web Mobile Business Intelligence avec la
-        <strong> Mention Très Bien</strong>.
-      </p>
+<p>
+  J'ai ainsi intégré Eranove Academy en 2024, où j'ai suivi une formation
+  professionnalisante en Web Mobile Business Intelligence. Cette expérience
+  m'a permis de développer mes compétences en développement web et mobile,
+  bases de données et conception de solutions numériques. J'ai obtenu ma
+  Licence Professionnelle avec la <strong>Mention Très Bien</strong>.
+</p>
 
-      <p>
-        Depuis ma soutenance, je continue activement à développer mes
-        compétences à travers des projets personnels et freelance.
-        Je pratique, je fais des recherches et j'approfondis régulièrement
-        mes connaissances afin de progresser dans le développement web
-        et mobile.
-      </p>
+<p>
+  Depuis ma soutenance, je continue activement à développer mes compétences
+  à travers des projets personnels et des missions freelance. Je pratique,
+  j'effectue des recherches et j'approfondis régulièrement mes connaissances
+  afin de progresser et de mieux répondre aux besoins des projets sur lesquels
+  je travaille.
+</p>
 
-      <p>
-        Pour moi, être développeuse junior, c'est rester active :
-        apprendre, expérimenter, concevoir des projets et chercher
-        continuellement à comprendre et à progresser.
-      </p>
+<p>
+  Pour moi, être développeuse junior, c'est être dans une démarche constante
+  d'apprentissage : apprendre, expérimenter, concevoir, résoudre des problèmes
+  et rechercher chaque jour de meilleures solutions pour progresser
+  professionnellement.
+</p>
+
     </div>
 
     <div className="about-highlights">
