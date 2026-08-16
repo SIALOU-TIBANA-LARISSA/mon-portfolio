@@ -87,7 +87,7 @@ Passionnée par le développement web et mobile, je conçois des applications et
 <p>
   J'ai ainsi intégré Eranove Academy en décembre 2024, où j'ai suivi une formation
   professionnalisante en Web Mobile Business Intelligence d'une durée de 1 an 4 mois . Cette formation
-  m'a permis de développer mes compétences en développement web et mobile,en gestion et conception
+  m'a permis de développer mes compétences en développement web et mobile,en gestion et conception de
   bases de données, ainsi qu'en conception de solutions numériques. À l’issue de ce parcours, j’ai obtenu en avril 2026 ma Licence Professionnelle avec la  <strong>Mention Très Bien</strong>.
   une reconnaissance qui vient valoriser mon engagement, ma persévérance et les compétences acquises au cours de ma formation.
 </p>
