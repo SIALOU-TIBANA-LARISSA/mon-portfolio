@@ -221,6 +221,8 @@ Passionnée par le développement web et mobile, je conçois des applications et
           <span>UML</span>
           <span>Merise</span>
           <span>MCD</span>
+          <span>MLD</span>
+          <span>MPD</span>
           <span>MVC</span>
           <span>Agile</span>
           <span>Scrum</span>
