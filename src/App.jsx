@@ -239,6 +239,7 @@ Passionnée par le développement web et mobile, je conçois des applications et
           <span>XAMPP</span>
           <span>Beekeeper Studio</span>
           <span>Trello</span>
+          <span>Render</span>
         </div>
       </div>
 
