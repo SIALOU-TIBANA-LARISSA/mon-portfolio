@@ -422,6 +422,8 @@ Passionnée par le développement web et mobile, je conçois des applications et
         <span>JavaScript</span>
         <span>MySQL</span>
         <span>Tailwind CSS</span>
+        <span>API HSMS</span>
+        <span>API REST</span>
       </div>
 
     </div>
