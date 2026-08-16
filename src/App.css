@@ -122,32 +122,19 @@ nav > div a:hover {
   align-items: center;
 }
 
-.btn-primary,
-.btn-secondary {
+.hero-btn {
   display: inline-block;
   padding: 13px 25px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  transition: 0.3s ease;
-}
-
-.btn-primary {
-  background-color: #8b4f32;
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: #6f3d27;
-}
-
-.btn-secondary {
   border: 2px solid #8b4f32;
   color: #8b4f32;
   background-color: transparent;
+  transition: 0.3s ease;
 }
 
-.btn-secondary:hover {
+.hero-btn.active {
   background-color: #8b4f32;
   color: white;
 }
@@ -1194,8 +1181,7 @@ img {
     gap: 12px !important;
   }
 
-  .btn-primary,
-  .btn-secondary {
+  .hero-btn {
     width: 100% !important;
     max-width: 100% !important;
 

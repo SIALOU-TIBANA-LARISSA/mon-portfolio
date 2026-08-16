@@ -1,5 +1,7 @@
+import React from 'react'
 import './App.css'
 function App() {
+    const [activeButton, setActiveButton] = React.useState(null);
   return (
     <>
       {/* Navigation */}
@@ -38,14 +40,23 @@ Passionnée par le développement web et mobile, je conçois des applications et
     </p>
 
     <div className="hero-buttons">
-      <a href="#projets" className="btn-primary">
-        Voir mes projets
-      </a>
+  <a
+    href="#projets"
+    className={`hero-btn ${activeButton === "projets" ? "active" : ""}`}
+    onClick={() => setActiveButton("projets")}
+  >
+    Voir mes projets
+  </a>
 
-      <a href="#contact" className="btn-secondary">
-        Me contacter
-      </a>
-    </div>
+  <a
+    href="#contact"
+    className={`hero-btn ${activeButton === "contact" ? "active" : ""}`}
+    onClick={() => setActiveButton("contact")}
+  >
+    Me contacter
+  </a>
+</div>
+
   </div>
 
   <div className="hero-image">
