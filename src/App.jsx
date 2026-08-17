@@ -104,7 +104,7 @@ Passionnée par le développement web et mobile, je conçois des applications et
 
   {/* Bouton CV */}
   <a
-  href="/CV-SIALOU-TIBANA-LARISSA.pdf"
+  href="/CV-SIALOU-TIBANA-LARISSA-2026.pdf"
   download
   className="btn-cv"
 >
