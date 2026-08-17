@@ -82,6 +82,8 @@ Passionnée par le développement web et mobile, je conçois des applications et
     </p>
 
     <div className="hero-buttons">
+
+   {/* Bouton projets */}   
   <a
     href="#projets"
     className={`hero-btn ${activeButton === "projets" ? "active" : ""}`}
@@ -89,7 +91,8 @@ Passionnée par le développement web et mobile, je conçois des applications et
   >
     Voir mes projets
   </a>
-
+  
+  {/* Bouton contact */}
   <a
     href="#contact"
     className={`hero-btn ${activeButton === "contact" ? "active" : ""}`}
@@ -97,6 +100,17 @@ Passionnée par le développement web et mobile, je conçois des applications et
   >
     Me contacter
   </a>
+  
+
+  {/* Bouton CV */}
+  <a
+  href="/CV-SIALOU-TIBANA-LARISSA.pdf"
+  download
+  className="btn-cv"
+>
+  Télécharger mon CV
+</a>
+
 </div>
 
   </div>
@@ -422,6 +436,77 @@ Passionnée par le développement web et mobile, je conçois des applications et
 
   </div>
 </section>
+
+{/* Ce que je peux réaliser */}
+<section id="services">
+  <div className="services-container">
+
+    <div className="services-header">
+      <p className="section-intro">Mes services</p>
+
+      <h2>Ce que je peux réaliser</h2>
+
+      <p>
+        Je conçois des solutions numériques adaptées aux besoins des
+        entreprises, entrepreneurs et porteurs de projets.
+      </p>
+    </div>
+
+    <div className="services-grid">
+
+      <div className="service-card">
+        <h3>💻 Développement Web</h3>
+        <p>
+          Sites vitrines, plateformes web et applications adaptées
+          aux besoins du projet.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>📱 Applications Mobiles</h3>
+        <p>
+          Conception d'applications mobiles avec des interfaces modernes
+          et adaptées aux différents écrans.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>🛒 Sites e-commerce</h3>
+        <p>
+          Création de boutiques en ligne avec catalogue, panier,
+          commandes et fonctionnalités métier.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>🗄️ Bases de données</h3>
+        <p>
+          Conception, structuration et gestion de bases de données
+          adaptées aux applications.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>⚙️ API & Automatisation</h3>
+        <p>
+          Intégration d'API et automatisation de certaines tâches
+          pour faciliter les processus.
+        </p>
+      </div>
+
+      <div className="service-card">
+        <h3>📊 Tableaux de bord & BI</h3>
+        <p>
+          Création de tableaux de bord pour visualiser et exploiter
+          les données.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
         {/* Expériences */}
         

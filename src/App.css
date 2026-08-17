@@ -369,6 +369,22 @@ nav > div a:hover {
   display: inline-block;
   text-align: left;
 }
+.btn-cv {
+  width: 100%;
+}
+
+.services-container {
+  padding: 60px 20px;
+}
+
+.services-grid {
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.service-card {
+  padding: 22px;
+}
 
 }
 
@@ -1573,4 +1589,79 @@ img {
   content: "›";
   margin-right: 8px;
   color: #8b4f32;
+}
+
+/* Bouton téléchargement CV */
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 14px 24px;
+  border: 2px solid #93502f;
+  border-radius: 8px;
+  color: #93502f;
+  background: transparent;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-cv:hover {
+  background: #93502f;
+  color: white;
+}
+
+/* ================================
+   CE QUE JE PEUX RÉALISER
+================================ */
+
+.services-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.services-header {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px;
+}
+
+.services-header h2 {
+  margin-bottom: 15px;
+}
+
+.services-header > p:last-child {
+  line-height: 1.7;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.service-card {
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #e5ddd7;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.service-card h3 {
+  margin-bottom: 15px;
+  color: #8b4f32;
+  font-size: 19px;
+}
+
+.service-card p {
+  margin: 0;
+  line-height: 1.7;
+  color: #555;
 }
