@@ -1665,3 +1665,78 @@ img {
   line-height: 1.7;
   color: #555;
 }
+
+/* =========================================
+   CORRECTION MOBILE
+   SERVICES + FORMULAIRE CLIENT
+========================================= */
+
+@media (max-width: 768px) {
+
+  /* ===== SERVICES ===== */
+
+  #services {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .services-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 60px 20px;
+    box-sizing: border-box;
+  }
+
+  .services-header {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .services-grid {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  /* ===== FORMULAIRE CLIENT ===== */
+
+  .contact-content {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    box-sizing: border-box;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 22px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-form button {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
