@@ -1447,3 +1447,92 @@ img {
 .project-challenge strong {
   color: #8b5e3c;
 }
+
+/* ================================
+   FORMULAIRE DE CONTACT
+================================ */
+
+.contact-form {
+  flex: 1;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #e5ddd7;
+  box-sizing: border-box;
+}
+
+.contact-form h3 {
+  margin: 0 0 25px;
+  color: #8b4f32;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #d8d0ca;
+  border-radius: 7px;
+  background: #fafafa;
+  color: #333;
+  font-family: inherit;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #8b4f32;
+  background: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.contact-submit {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 7px;
+  background: #8b4f32;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-submit:hover {
+  background: #6f3d27;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+    padding: 22px;
+  }
+
+  .contact-form h3 {
+    font-size: 21px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+  }
+}

@@ -2,6 +2,48 @@ import React from 'react'
 import './App.css'
 function App() {
     const [activeButton, setActiveButton] = React.useState(null);
+        const [contactForm, setContactForm] = React.useState({
+      nom: "",
+      telephone: "",
+      email: "",
+      sujet: "",
+      message: ""
+    });
+
+        const handleContactChange = (e) => {
+      setContactForm({
+        ...contactForm,
+        [e.target.name]: e.target.value
+      });
+    };
+
+    const handleWhatsAppSubmit = (e) => {
+      e.preventDefault();
+
+      const { nom, telephone, email, sujet, message } = contactForm;
+
+      if (!nom || !telephone || !email || !sujet || !message) {
+        alert("Veuillez remplir tous les champs.");
+        return;
+      }
+
+      const whatsappMessage = `Bonjour Larissa,
+
+Je vous contacte depuis votre portfolio.
+
+Nom et prénom : ${nom}
+Téléphone : ${telephone}
+Courriel : ${email}
+Sujet : ${sujet}
+
+Message :
+${message}`;
+
+      const whatsappUrl = `https://wa.me/2250757728834?text=${encodeURIComponent(whatsappMessage)}`;
+
+      window.open(whatsappUrl, "_blank");
+    };
+
   return (
     <>
       {/* Navigation */}
@@ -628,21 +670,78 @@ Passionnée par le développement web et mobile, je conçois des applications et
 
       </div>
 
-      <div className="contact-message">
-  <span className="contact-message-icon"></span>
+       <div className="contact-form">
 
-  <h3>Construisons quelque chose ensemble</h3>
+  <h3>Envoyez-moi un message</h3>
 
-  <p>
-    Je suis à la recherche de nouvelles opportunités professionnelles,
-    de projets freelance et de collaborations dans le domaine du
-    développement web et mobile.
-  </p>
+  <form onSubmit={handleWhatsAppSubmit}>
 
-  <p>
-    Si vous avez un projet, une idée ou une opportunité à partager,
-    n'hésitez pas à me contacter.
-  </p>
+    <div className="form-group">
+      <label htmlFor="nom">Nom et prénom</label>
+      <input
+        type="text"
+        id="nom"
+        name="nom"
+        value={contactForm.nom}
+        onChange={handleContactChange}
+        placeholder="Votre nom et prénom"
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="telephone">Téléphone</label>
+      <input
+        type="tel"
+        id="telephone"
+        name="telephone"
+        value={contactForm.telephone}
+        onChange={handleContactChange}
+        placeholder="Votre numéro de téléphone"
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="email">Courriel</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        value={contactForm.email}
+        onChange={handleContactChange}
+        placeholder="votre@email.com"
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="sujet">Sujet</label>
+      <input
+        type="text"
+        id="sujet"
+        name="sujet"
+        value={contactForm.sujet}
+        onChange={handleContactChange}
+        placeholder="Sujet de votre message"
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        value={contactForm.message}
+        onChange={handleContactChange}
+        placeholder="Écrivez votre message..."
+        rows="6"
+      ></textarea>
+    </div>
+
+    <button type="submit" className="contact-submit">
+      Envoyer le message
+    </button>
+
+  </form>
+
 </div>
 
     </div>
