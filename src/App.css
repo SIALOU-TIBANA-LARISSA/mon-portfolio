@@ -386,6 +386,23 @@ nav > div a:hover {
   padding: 22px;
 }
 
+.why-me-container {
+  padding: 60px 20px;
+}
+
+.why-me-header {
+  margin-bottom: 35px;
+}
+
+.why-me-grid {
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.why-me-card {
+  padding: 22px;
+}
+
 }
 
 /* =========================
@@ -1739,4 +1756,70 @@ img {
     max-width: 100%;
     box-sizing: border-box;
   }
+}
+
+/* =========================================
+   POURQUOI TRAVAILLER AVEC MOI ?
+========================================= */
+
+.why-me-section {
+  width: 100%;
+  background: #faf8f6;
+}
+
+.why-me-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.why-me-header {
+  max-width: 750px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.why-me-header h2 {
+  margin-bottom: 15px;
+}
+
+.why-me-header > p:last-child {
+  line-height: 1.7;
+}
+
+.why-me-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.why-me-card {
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e5ddd7;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-me-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.why-me-icon {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.why-me-card h3 {
+  margin-bottom: 12px;
+  color: #8b4f32;
+  font-size: 19px;
+}
+
+.why-me-card p {
+  margin: 0;
+  line-height: 1.7;
+  color: #555;
 }

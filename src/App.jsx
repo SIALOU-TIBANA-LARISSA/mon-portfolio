@@ -507,6 +507,82 @@ Passionnée par le développement web et mobile, je conçois des applications et
   </div>
 </section>
 
+{/* Pourquoi travailler avec moi */}
+<section id="pourquoi-moi" className="why-me-section">
+  <div className="why-me-container">
+
+    <div className="why-me-header">
+      <p className="section-intro">Ma façon de travailler</p>
+
+      <h2>Pourquoi travailler avec moi ?</h2>
+
+      <p>
+        Au-delà des compétences techniques, je privilégie l'écoute,
+        la recherche de solutions et l'envie constante de progresser.
+      </p>
+    </div>
+
+    <div className="why-me-grid">
+
+      <div className="why-me-card">
+        <span className="why-me-icon">🎯</span>
+        <h3>Orientée résultat</h3>
+        <p>
+          Je cherche à comprendre le besoin et à proposer une solution
+          fonctionnelle, adaptée et utile au projet.
+        </p>
+      </div>
+
+      <div className="why-me-card">
+        <span className="why-me-icon">📚</span>
+        <h3>Apprentissage continu</h3>
+        <p>
+          Je continue à me former, expérimenter et approfondir mes
+          connaissances afin de progresser constamment.
+        </p>
+      </div>
+
+      <div className="why-me-card">
+        <span className="why-me-icon">💡</span>
+        <h3>Esprit de recherche</h3>
+        <p>
+          Face à une difficulté, je cherche à comprendre le problème,
+          tester différentes approches et trouver une solution.
+        </p>
+      </div>
+
+      <div className="why-me-card">
+        <span className="why-me-icon">🤝</span>
+        <h3>À l'écoute du besoin</h3>
+        <p>
+          Je prends le temps de comprendre les attentes afin de
+          construire une solution qui correspond réellement au projet.
+        </p>
+      </div>
+
+      <div className="why-me-card">
+        <span className="why-me-icon">🚀</span>
+        <h3>Motivation & engagement</h3>
+        <p>
+          Chaque projet est pour moi une occasion d'apprendre,
+          de progresser et de donner le meilleur résultat possible.
+        </p>
+      </div>
+
+      <div className="why-me-card">
+        <span className="why-me-icon">🔎</span>
+        <h3>Recherche du meilleur résultat</h3>
+        <p>
+          Un bon junior ne se contente pas de faire : il cherche à
+          comprendre, améliorer et produire le meilleur résultat possible.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
         {/* Expériences */}
         
