@@ -757,6 +757,22 @@ Passionnée par le développement web et mobile, je conçois des applications et
       <p>Développeuse Web & Mobile</p>
     </div>
 
+    {/* SERVICES */}
+    <div className="footer-services">
+      <h3>SERVICES</h3>
+
+      <ul>
+        <li>Développement Web</li>
+        <li>Applications Web</li>
+        <li>Applications Mobiles</li>
+        <li>Sites e-commerce</li>
+        <li>Bases de données</li>
+        <li>API & Automatisation</li>
+        <li>Tableaux de bord & Business Intelligence</li>
+        <li>Création graphique</li>
+      </ul>
+    </div>
+
     <div className="footer-links">
       <a href="https://www.linkedin.com/in/tibana-larissa-sialou" target="_blank" rel="noopener noreferrer">
         LinkedIn
