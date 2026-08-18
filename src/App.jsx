@@ -144,7 +144,7 @@ Passionnée par le développement web et mobile, je conçois des applications et
   J'ai ainsi intégré Eranove Academy en décembre 2024, où j'ai suivi une formation
   professionnalisante en Web Mobile Business Intelligence d'une durée de 1 an 4 mois . Cette formation
   m'a permis de développer mes compétences en développement web et mobile,en gestion et conception de
-  bases de données, ainsi qu'en conception de solutions numériques. À l’issue de ce parcours, j’ai obtenu en avril 2026 ma Licence Professionnelle avec la  <strong>Mention Très Bien</strong>.
+  bases de données, ainsi qu'en conception de solutions numériques. À l’issue de ce parcours, j’ai obtenu en avril 2026 ma Licence Professionnelle avec la  <strong>Mention Très Bien</strong>;
   une reconnaissance qui vient valoriser mon engagement, ma persévérance et les compétences acquises au cours de ma formation.
 </p>
 
@@ -414,9 +414,9 @@ Passionnée par le développement web et mobile, je conçois des applications et
           <p>
             <p>
   Développement d'une application web permettant de centraliser la gestion
-  des produits, des stocks, des achats, des ventes et des utilisateurs,
-  avec suivi des lots et des dates de péremption, alertes de péremption des
-  médicaments et alertes de stock, génération de reçus et de factures,
+  des produits, des stocks, des achats, des ventes et des utilisateurs.
+  L’application assure également le suivi des lots et des dates de péremption des médicaments, 
+  les alertes de stock et de médicaments arrivant à expiration, la génération de reçus et de factures, 
   ainsi que des indicateurs et rapports de performance.
 </p>
           </p>
