@@ -1823,3 +1823,33 @@ img {
   line-height: 1.7;
   color: #555;
 }
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 11px 20px;
+  background: #9a5b32;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.project-arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+  background: #7d4726;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(154, 91, 50, 0.2);
+}
+
+.project-link:hover .project-arrow {
+  transform: translateX(5px);
+}

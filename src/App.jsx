@@ -384,7 +384,8 @@ Passionnée par le développement web et mobile, je conçois des applications et
   rel="noopener noreferrer"
   className="project-link"
 >
-  Voir le projet →
+  <span>Voir le projet</span>
+  <span className="project-arrow">→</span>
 </a>
 
     
